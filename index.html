@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Oleksandr Razumnyi's Portfolio</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <header id="bar">
+      <div class="header__background">
+        <div class="header__menu">
+          <a class="logo logo-a hidden-on-tablet" href="#">
+            <img class="logo-img" src="images/ORLogo.png" alt="logo">
+          </a>
+          <a class="logo logo-a--compact" href="#">
+            <img class="logo-img--compact" src="images/ORLogo-compact.png" alt="logo">
+          </a>
+          <nav>
+            <ul class="nav__links hidden-on-mobile">
+              <li><a href="./ios-developer">as an iOS Developer</a></li>
+              <li><a href="./graphic-specialist">as a Graphic specialist</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <p class="menu-js-action pill-a hidden-on-desktop">Menu</p>
+        </div>
+      </div>
+    </header>
+
+    <div id="mobile__menu" class="overlay">
+        <a class="close-js-action">&times;</a>
+        <div class="overlay__content">
+            <a href="./ios-developer">as an iOS Developer</a>
+            <a href="./graphic-specialist">as a Graphic specialist</a>
+            <a href="#contact" class="contact-js-action">Contact</a>
+        </div>
+    </div>
+
+    <!-- About -->
+    <section id="about" class="flex-container">
+      <div>
+        <div class="vertical-center">
+          <h1>Hi, I'm Oleksandr</h1>
+          <h3>Please select the version of me you would like to see:</h3>
+          <h2><a href="./ios-developer">as an iOS Developer</a></h2>
+          <h2><a href="./graphic-specialist">as a Graphic specialist</a></h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div id="contact" class="title-text"><h2>Contact</h2></div>
+      <div class="footer__container">
+
+        <div class="footer__container__element">
+          <a class="no-decoration" href="mailto:oleksandr.razumnyi@gmail.com">
+            <button>
+              <h3 class="vertical-center">
+                <img class="link-img--social vertical-align__middle" src="images/email-logo.png" alt="Email">
+                <span class="hidden-on-mobile vertical-align__middle ">oleksandr.razumnyi@gmail.com</span>
+              </h3>
+            </button>
+          </a>
+        </div>
+        <div class="footer__container__element">
+          <a class="no-decoration" href="https://github.com/Sandroron">
+            <button>
+              <h3 class="vertical-center">
+                <img class="link-img--social vertical-align__middle"  src="images/github-logo.png" alt="GitHub Link">
+                <span class="vertical-align__middle hidden-on-mobile">Sandroron</span>
+              </h3>
+            </button>
+          </a>
+        </div>
+        <div class="footer__container__element">
+          <a class="no-decoration" href="https://linkedin.com/in/ORazum">
+            <button>
+              <h3 class="vertical-center">
+                <img class="link-img--social vertical-align__middle" src="images/linkedin-logo.png" alt="LinkedIn Link">
+                <span class="vertical-align__middle hidden-on-mobile">ORazum</span>
+              </h3>
+            </button>
+          </a>
+        </div>
+      </div>
+
+    </footer>
+
+    <!-- JS -->
+
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>
