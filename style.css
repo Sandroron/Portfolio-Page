@@ -468,6 +468,36 @@ button:active {
   -moz-transform: scale(1.05);
 }
 
+.app-screenshot--left-dreambook {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3; /* например 4:3 или 16:9 — подгони под свою рамку */
+}
+
+.app-overlay-gif,
+.app-overlay-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.app-overlay-gif {
+  top: 5%;
+  left: 5%;
+  right: 5%;
+  bottom: 5%;
+  width: 90%;
+  height: 90%;
+  z-index: 1;
+}
+
+.app-overlay-frame {
+  z-index: 2;
+}
+
 .modal {
   display: none; 
   position: fixed; 
